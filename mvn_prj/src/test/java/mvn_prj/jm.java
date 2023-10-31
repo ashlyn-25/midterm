@@ -7,12 +7,12 @@ public class jm{
 	public void logintest1()
 	{
 		demo obj=new demo();
-		Assert.assertEquals(0,obj.login ("somename","somepass"));
+		Assert.assertEquals(0,obj.login ("name","id"));
 	}
 	@Test
 	public void logintest2()
 	{
 		demo obj1=new demo();
-		Assert.assertEquals(1,obj1.login ("ashlyn","1234"));
+		Assert.assertEquals(1,obj1.login ("ram","3025"));
 	}
 }
